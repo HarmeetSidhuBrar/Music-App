@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:contentDescription="@string/contentDescription"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backg2"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:fontFamily="monospace"
+        android:text="@string/welCome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    <ImageView
+        android:id="@+id/image_icon"
+        android:contentDescription="@string/contentDescription2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textColor="#FFFFFF"
+        android:src="@drawable/playicon"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text"/>
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/developerInfo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developedBy"
+        android:textSize="25sp"
+        android:layout_above="@id/text3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

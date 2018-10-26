@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <string name="developedBy">App Developed By:-</string>
+    <string name="developerInfo">Sidhu.Pvt.Tech.Ltd</string>
+    <string name="welCome">WelCome!</string>
+    <string name="contentDescription">Background Image</string>
+    <string name="contentDescription2">Play Icon</string>
+</resources>
