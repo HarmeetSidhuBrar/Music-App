@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="false"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="120dp"
         android:fontFamily="monospace"
         android:text="@string/welCome"
         android:textAppearance="@style/TextAppearance.AppCompat.Title" />
@@ -33,7 +33,6 @@
         android:contentDescription="@string/contentDescription2"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:textColor="#FFFFFF"
         android:src="@drawable/playicon"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/text"/>

@@ -5,4 +5,8 @@
     <string name="welCome">WelCome!</string>
     <string name="contentDescription">Background Image</string>
     <string name="contentDescription2">Play Icon</string>
-</resources>
+    <string name="song_name">Track 1</string>
+    <string name="artist_name">Artist name</string>
+    <string name="album_name">Album Name</string>
+    <string name="content_description3">image for now playing activity</string>
+0</resources>
