@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Music App</string>
     <string name="developedBy">App Developed By:-</string>
-    <string name="developerInfo">Sidhu.Pvt.Tech.Ltd</string>
+    <string name="developerInfo">Harmeet Singh</string>
     <string name="welCome">WelCome!</string>
     <string name="contentDescription">Background Image</string>
     <string name="contentDescription2">Play Icon</string>
@@ -9,4 +9,10 @@
     <string name="artist_name">Artist name</string>
     <string name="album_name">Album Name</string>
     <string name="content_description3">image for now playing activity</string>
+    <string name="start_listening">Start listening</string>
+    <string name="songs_list">Songs List</string>
+    <string name="actvity_name1">Songs</string>
+    <string name="activity_name2">Now Playing</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="content_description4">Play icon</string>
 0</resources>

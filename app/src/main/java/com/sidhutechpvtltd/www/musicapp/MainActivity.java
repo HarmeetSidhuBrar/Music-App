@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         iconImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, SongsList.class);
+                Intent numbersIntent = new Intent(MainActivity.this, NowPlaying.class);
                 startActivity(numbersIntent);
             }
         });
