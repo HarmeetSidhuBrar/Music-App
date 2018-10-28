@@ -16,7 +16,7 @@ public class SongsList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_songs_list);
 
-        LinearLayout startNowPlaying = (LinearLayout) findViewById(R.id.now_playing_linear_layout);
+        LinearLayout startNowPlaying = findViewById(R.id.now_playing_linear_layout);
 
         startNowPlaying.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,14 +42,11 @@ public class SongsList extends AppCompatActivity {
 
         SongAdapter adapter = new SongAdapter(this,songs);
 
-        ListView listView = (ListView)findViewById(R.id.list);
+        ListView listView = findViewById(R.id.list);
 
         listView.setAdapter(adapter);
 
     }
 
-    public void start_now_playing(View view) {
-        Intent startNowplaying = new Intent(this,NowPlaying.class);
-        startActivity(startNowplaying);
-    }
+
 }

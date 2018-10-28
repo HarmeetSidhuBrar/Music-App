@@ -41,7 +41,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:contentDescription="@string/contentDescription2"
-            android:src="@drawable/playicon" />
+            android:src="@drawable/round_play_circle_filled_white_black_18dp" />
 
         <TextView
             android:id="@+id/start_listening_text_view"

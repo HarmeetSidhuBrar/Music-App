@@ -13,13 +13,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Find the View that shows the songs list category.
-        ImageView iconImage = (ImageView) findViewById(R.id.image_icon);
+        ImageView iconImage =  findViewById(R.id.image_icon);
         // The code in this method will be executed when the play icon is clicked .
         iconImage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent numbersIntent = new Intent(MainActivity.this, NowPlaying.class);
-                startActivity(numbersIntent);
+                Intent nowPlaying = new Intent(MainActivity.this, NowPlaying.class);
+                startActivity(nowPlaying);
             }
         });
     }

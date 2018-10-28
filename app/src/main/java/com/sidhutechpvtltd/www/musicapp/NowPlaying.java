@@ -14,7 +14,7 @@ public class NowPlaying extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_now_playing);
 
-        LinearLayout startSongsActivity = (LinearLayout) findViewById(R.id.jump_to_songs) ;
+        LinearLayout startSongsActivity = findViewById(R.id.jump_to_songs) ;
         startSongsActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,9 +22,5 @@ public class NowPlaying extends AppCompatActivity {
                 startActivity(displaySongslist);
             }
         });
-
     }
-
-
-
 }
